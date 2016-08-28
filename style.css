@@ -1,0 +1,111 @@
+article, aside, figcaption, figure, footer, header, hgroup, menu, nav, section{
+    display: block;
+}/*为旧版本的浏览器添加html5新特性*/
+*{
+    font-family: 'Exo-ExtraLight',Arial,sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+}
+#bodycenter{
+    height: 100%;
+    width: 700px;
+    margin: 0 auto ;
+}
+header,footer,section{
+    text-align: center;
+}
+section{
+    background-color: #fff;
+    min-height: 60px;
+    box-shadow:  0 30px 60px rgba(0,0,0,0.18);
+    border-radius: 80px 0px;
+}
+section div{
+    margin: 0 auto;
+}
+section div span{
+    float: left;
+    letter-spacing:  .1em;
+}
+#taskEnter{
+    width: 370px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    margin-left: 5px;
+}
+#taskEnter[placeholder]{
+    font-size: 25px;
+}
+#creatbutton{
+    width: 50px;
+    height: 35px;
+    border: none;
+    background-color: #79d9cf;
+}
+#creatbutton:hover{
+    background-color: #79D9B1;
+}
+#delbutton{
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: #ddd;
+}
+#delbutton:hover{
+    background-color: #ddb;
+}
+#delbutton[value]{
+    font-size: 15px;
+}
+.Task{
+    width: 533px;
+    height: 50px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.del{
+    float: right;
+    height: 35px;
+    width: 70px;
+    background-color: #f2aeb4;
+    border: none;
+    margin-top: 7px;
+}
+.del:hover{
+    background-color: #F2AF04;
+}
+.taskContent{
+    line-height: 50px;
+}
+.done{
+    float: right;
+    border: none;
+    margin-right: 3px;
+    height: 35px;
+    width: 80px;
+    margin-top: 7px;
+    background-color: #ddd;
+}
+.done:hover{
+    background-color: #ddb;
+}
+@font-face{
+    font-family: 'Exo-ExtraLight';
+    src:url(Exo-ExtraLight.otf);
+}
+header h1{
+    text-transform: uppercase;/*大写*/
+    letter-spacing:  .4em;/*控制间距*/
+    color: #f2aeb4;
+    font-size: 50px;
+    text-shadow: 0 5px 5px #ddc;
+    font-family: 'Exo-ExtraLight',Arial,sans-serif;
+}
+
+footer{
+    margin-top: 60px;
+}
+footer small{
+    color: grey;
+}
